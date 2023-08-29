@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(191, 164, 191);
+    background-image: url("back.jpg");
+    opacity: 0.9;
+}
+
+#active {
+    color: rgb(191, 164, 191);
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color: purple;
+    width: 13rem;
+    height: 100vh;
+    font-family: 'Fira Sans', sans-serif;
+    color: whitesmoke;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+
+.main {
+   
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(191, 164, 191);
+    overflow-y: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap-reverse;
+}
+
+.sidebar nav {
+    padding: 2.5rem;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 3.5vh;
+    padding-top: 4vh;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: whitesmoke;
+}
+.sidebar nav li a:hover{
+    color: rgb(191, 164, 191);
+}
+
+.devPic img {
+
+    width: 43vw;
+    margin-top: 5rem;
+}
+
+.devInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    margin: 2vw;
+}
+
+.hello {
+    font-size: 5.5vh;
+    margin-bottom: 1vh;
+}
+
+.name {
+    font-size: 4.5vh;
+    font-family: 'Fira Sans', sans-serif;
+    margin-bottom: 1vh;
+}
+
+.about {
+    font-size: 3vh;
+    margin-bottom: 1vh;
+}
+
+.btn {
+    color: whitesmoke;
+    background-color: purple;
+    border-radius: 5px;
+    padding: 1vh;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: whitesmoke;
+    color: purple;
+}
+
+#element {
+    color: whitesmoke;
+    font-size: 4.5vh;
+}
+
+
+/* Contact Page */
+
+.mainContact {
+
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(191, 164, 191);
+}
+
+.mainContact h2 {
+    text-align: center;
+    margin: 7vh;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.formm {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+form {
+    padding: 3.5vw;
+    margin: 0 2vw 2vw 2vw;
+    border: 2px solid purple;
+    border-radius: 1.5vw;
+    font-weight: bold;
+    font-size: large;
+}
+
+.icon {
+    width: 35px;
+    mix-blend-mode: multiply;
+}
+
+ .formControl input:focus{
+    outline: none;
+}
+
+#submitMsg{
+    color: green;
+    text-align: center;
+}
+
+
+
+
+/* Intro Page */
+.intro1 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 3vh;
+    margin: 2vw;
+}
+
+.intro2 {
+    width: 80%;
+    margin-top: 5vh;
+}
+
+
+.cont {
+    width: 100%;
+    /* Full width */
+    background-color: #ddd;
+    /* Grey background */
+}
+
+.skills {
+    text-align: right;
+    /* Right-align text */
+    padding-top: 1vh;
+    /* Add top padding */
+    padding-bottom: 1vh;
+    /* Add bottom padding */
+    color: white;
+    /* White text color */
+}
+
+.html {
+    width: 90%;
+    background-color: #04AA6D;
+}
+
+/* Green */
+.css {
+    width: 80%;
+    background-color: #2196F3;
+}
+
+/* Blue */
+.js {
+    width: 65%;
+    background-color: #f44336;
+}
+
+/* Red */
+.php {
+    width: 60%;
+    background-color: #808080;
+}
+
+/* Dark Grey */
+.sql {
+    width: 80%;
+    background-color: burlywood;
+}
+
+
+
+/* Projects */
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    margin: 5vh 3vh;
+}
+
+.project {
+
+
+
+    width: 95%;
+    margin: 1vh;
+    cursor: pointer;
+    border: 2px solid rgb(191, 164, 191);
+    border-radius: 1vh;
+    padding: 2vh;
+
+}
+.project:hover{
+    box-shadow: inset 2px 2px 50px whitesmoke;
+}
+.projectinfo {
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.projecticon img {
+    width: 10vh;
+}
+.projecticon video {
+    float:right;
+}
+
+.project a{
+    text-decoration: none;
+    color: black;
+}
+.heading{
+    color:purple;
+}
+
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    mix-blend-mode:multiply;
+}
+.cross{
+    margin-left: 150px;
+}
+
+.sidebarGo{
+    transform: translate(-13rem,0rem);
+    position: absolute;
+}
