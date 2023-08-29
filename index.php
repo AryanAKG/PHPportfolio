@@ -14,7 +14,7 @@
     <div class="sidebar sidebarGo">
         <nav>
             <ul>
-                <li><a href="/" id="active">Home</a></li>
+                <li><a href="index.php" id="active">Home</a></li>
                 <li><a href="intro.php">My intro</a></li>
                 <li><a href="services.php">Feedback</a></li>        
                 <li><a href="projects.php">Projects</a></li>
